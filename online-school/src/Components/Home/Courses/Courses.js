@@ -12,17 +12,20 @@ const Courses = () => {
 
   return (
     <section className="courses-part">
-      <div className="title mb-3">
-        <h2 className="text-center">
-          Popular <span class="green-color">Courses</span>
-        </h2>
-      </div>
       <div className="container">
+        <div className="title mb-3">
+          <h2 className="text-center">
+            Popular <span class="green-color">Courses</span>
+          </h2>
+        </div>
         <div className="row g-4">
           {courses.map((course) => (
             <Course course={course}></Course>
           ))}
         </div>
+        <button className="btn-regular enroll mt-5 text-center d-block mx-auto">
+          See All Courses
+        </button>
       </div>
     </section>
   );

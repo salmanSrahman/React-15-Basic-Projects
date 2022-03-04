@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Course.css";
 
-const Course = (props) => {
+const AllCourse = (props) => {
   const { img, mentor, name } = props.course;
   return (
     <div className="col-xl-3 col-md-6">
@@ -25,4 +24,4 @@ const Course = (props) => {
   );
 };
 
-export default Course;
+export default AllCourse;

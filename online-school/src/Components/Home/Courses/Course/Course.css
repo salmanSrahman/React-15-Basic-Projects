@@ -59,6 +59,10 @@
       transition: all linear 0.3s;
 }
 
+.enroll:hover {
+      background-color: #1dbb90;
+}
+
 .btn-details:hover {
       color: #fff;
 }
