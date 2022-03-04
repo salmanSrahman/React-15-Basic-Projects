@@ -1,0 +1,21 @@
+.success-card img {
+      width: 3.5rem
+}
+
+.success-card {
+      background: #F0FFF0;
+      padding: 3.5rem;
+      border-radius: 10px;
+      transition: all linear 0.3s;
+      cursor: pointer;
+}
+
+.success-card:hover {
+      box-shadow: 1px 5px 24px 4px rgba(0, 0, 0, 0.4);
+      background: #fff;
+}
+
+.success-card h3,
+h4 {
+      color: #413960;
+}
