@@ -2,7 +2,6 @@ import React from "react";
 import "./SuccessDetails.css";
 
 const SuccessDetails = (props) => {
-  console.log(props);
   const { title, img, number } = props.success;
   return (
     <div className="col-xl-3 col-md-6">
