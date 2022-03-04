@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Course from "./Course/Course";
-import './Courses.css'
+import "./Courses.css";
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
@@ -12,13 +12,13 @@ const Courses = () => {
 
   return (
     <section className="courses-part">
-      <div className="title">
+      <div className="title mb-3">
         <h2 className="text-center">
           Popular <span class="green-color">Courses</span>
         </h2>
       </div>
       <div className="container">
-        <div className="row g-3">
+        <div className="row g-4">
           {courses.map((course) => (
             <Course course={course}></Course>
           ))}

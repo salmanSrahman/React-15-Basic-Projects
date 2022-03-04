@@ -1,11 +1,20 @@
 .course-card {
       background: #fff;
-      box-shadow: 1px 5px 24px 4px rgba(0, 0, 0, 0.4);
+      border: 1px solid gray;
+      cursor: pointer;
+      position: relative;
+      transition: all linear 0.4s;
+      overflow: hidden;
 }
 
 .course-card img {
-      height: 11rem;
+      height: 12rem;
       width: 100%;
+      transition: all linear 0.4s;
+}
+
+.course-card:hover img {
+      transform: scale(1.05)
 }
 
 .course-card h4 {
@@ -14,4 +23,42 @@
 
 .course-card h6 {
       color: #585859;
+}
+
+.course-card:hover {
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.course-card:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 3px;
+      bottom: -1px;
+      left: 0;
+      background-color: #1dbb90;
+      transform-origin: bottom right;
+      transition: transform 0.4s ease-out;
+}
+
+.course-card:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+}
+
+.btn-details {
+      text-decoration: none;
+      padding: 5px 10px;
+      color: #f1f1f1;
+      background-color: #1dbb90;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: 600;
+      border: 0;
+      transition: all linear 0.3s;
+}
+
+.btn-details:hover {
+      color: #fff;
 }
