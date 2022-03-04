@@ -31,7 +31,7 @@ const successInfo = [
 
 const Success = () => {
   return (
-    <div className="success-part">
+    <section className="success-part">
       <div className="title">
         <h2 className="text-center">
           Our <span class="green-color">Achievements</span>
@@ -47,7 +47,7 @@ const Success = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

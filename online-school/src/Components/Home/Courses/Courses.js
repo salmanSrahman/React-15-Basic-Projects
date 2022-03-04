@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Course from "./Course/Course";
+import './Courses.css'
 
 const Courses = () => {
+  const [courses, setCourses] = useState([]);
+  useEffect(() => {
+    fetch("./popularCourseData.JSON")
+      .then((res) => res.json())
+      .then((data) => setCourses(data));
+  });
+
   return (
-    <div>
-      <h1>Here Is Main Course.</h1>
-    </div>
+    <section className="courses-part">
+      <div className="title">
+        <h2 className="text-center">
+          Popular <span class="green-color">Courses</span>
+        </h2>
+      </div>
+      <div className="container">
+        <div className="row g-3">
+          {courses.map((course) => (
+            <Course course={course}></Course>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 
