@@ -2,11 +2,12 @@ import React from "react";
 import "./Header.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import logo from "../../images/Logo.png";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <div>
-      <Navbar bg="light" expand="lg" className="nav-part">
+      <Navbar expand="lg" className="nav-part">
         <Container>
           <Navbar.Brand href="#">
             <img src={logo} alt="" />
@@ -18,11 +19,21 @@ const Header = () => {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="#action1">Home</Nav.Link>
-              <Nav.Link href="#action2">About Us</Nav.Link>
-              <Nav.Link href="#action3">Courses</Nav.Link>
-              <Nav.Link href="#action4">Contact Us</Nav.Link>
-              <Nav.Link href="#action4">Login</Nav.Link>
+              <NavLink to="/home" className="header-nav">
+                Home
+              </NavLink>
+              <NavLink to="/about" className="header-nav">
+                About Us
+              </NavLink>
+              <NavLink to="/courses" className="header-nav">
+                Courses
+              </NavLink>
+              <NavLink to="/contact" className="header-nav">
+                Contact Us
+              </NavLink>
+              <NavLink to="/login" className="btn btn-success fw-bold">
+                Login
+              </NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
