@@ -8,7 +8,7 @@ const AllCourse = (props) => {
       <div className="course-card">
         <img src={img} alt="" className="img-fluid" />
         <div className="course-des px-2 py-4">
-          <h4>{name}</h4>
+          <h4>{name.slice(0, 25)}</h4>
           <h6 className="mb-3">Conducted By {mentor}</h6>
           <div className="d-flex justify-content-between">
             <Link to="/home" className="btn-details">

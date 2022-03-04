@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import AllCourse from "./AllCourse/AllCourse";
 import "./AllCourses.css";
 
 const AllCourses = () => {
   const [allCourses, setAllCourses] = useState([]);
+
+  let navigate = useNavigate();
 
   useEffect(() => {
     fetch("./mainCoursesData.JSON")
@@ -11,11 +14,11 @@ const AllCourses = () => {
       .then((data) => setAllCourses(data));
   });
   return (
-    <section className="allCourses-part">
+    <section className="allCourses-part mb-3">
       <div className="container">
         <div className="title mb-3">
           <h2 className="text-center">
-            Popular <span class="green-color">Courses</span>
+            All <span class="green-color">Courses</span>
           </h2>
         </div>
         <div className="row g-4">
@@ -23,7 +26,10 @@ const AllCourses = () => {
             <AllCourse course={course}></AllCourse>
           ))}
         </div>
-        <button className="btn-regular enroll mt-5 d-block mx-auto">
+        <button
+          className="btn-regular enroll mt-5 d-block mx-auto"
+          onClick={() => navigate("/home")}
+        >
           Go Back
         </button>
       </div>

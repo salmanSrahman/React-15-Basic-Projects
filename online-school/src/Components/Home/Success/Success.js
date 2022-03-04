@@ -1,6 +1,6 @@
 import React from "react";
 import "./Success.css";
-import s1 from "../../../images/card-1.png";
+import s1 from "../../../images/card-5.png";
 import s2 from "../../../images/card-2.png";
 import s3 from "../../../images/card-3.png";
 import s4 from "../../../images/card-4.png";

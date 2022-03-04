@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Course from "./Course/Course";
 import "./Courses.css";
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
+
+  let navigate = useNavigate();
+
   useEffect(() => {
     fetch("./popularCourseData.JSON")
       .then((res) => res.json())
@@ -23,7 +27,7 @@ const Courses = () => {
             <Course course={course}></Course>
           ))}
         </div>
-        <button className="btn-regular enroll mt-5 text-center d-block mx-auto">
+        <button className="btn-regular enroll mt-5 text-center d-block mx-auto" onClick={() =>navigate("/allCourses")}>
           See All Courses
         </button>
       </div>
