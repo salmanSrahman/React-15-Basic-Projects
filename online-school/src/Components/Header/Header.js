@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <Navbar expand="lg" className="nav-part">
+      <Navbar expand="xl" className="nav-part">
         <Container>
           <Navbar.Brand href="#">
             <img src={logo} alt="" />
@@ -31,7 +31,10 @@ const Header = () => {
               <NavLink to="/contact" className="header-nav">
                 Contact Us
               </NavLink>
-              <NavLink to="/login" className="btn btn-success fw-bold">
+              <NavLink
+                to="/login"
+                className="btn btn-success fw-bold d-inline-block"
+              >
                 Login
               </NavLink>
             </Nav>

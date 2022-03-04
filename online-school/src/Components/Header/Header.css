@@ -1,3 +1,10 @@
+.nav-part {
+      position: absolute;
+      top: 5px;
+      left: 0;
+      width: 100%;
+}
+
 .nav-part img {
       width: 13rem;
 }
