@@ -1,16 +1,20 @@
 import React from "react";
+import "./Header.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import logo from "../../images/Logo.png";
 
 const Header = () => {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" className="nav-part">
         <Container>
-          <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+          <Navbar.Brand href="#">
+            <img src={logo} alt="" />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="me-auto my-2 my-lg-0"
+              className="ms-auto my-2 my-lg-0"
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
