@@ -6,7 +6,7 @@ const HomeTeacher = (props) => {
   const { img, title, name } = props.teacher;
   return (
     <div className="col-xl-3 col-md-6">
-      <div className="teacher-card border">
+      <div className="teacher-card">
         <div className="teacher-img">
           <img src={img} alt="" className="img-fluid" />
           <div className="teacher-overlay d-flex align-items-center">
@@ -18,12 +18,12 @@ const HomeTeacher = (props) => {
               </li>
               <li>
                 <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
+                  <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li>
