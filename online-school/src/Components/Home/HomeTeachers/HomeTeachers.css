@@ -1,0 +1,20 @@
+li {
+      list-style-type: none;
+}
+
+.teacher-img {
+      position: relative;
+}
+
+.teacher-overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #000;
+      height: 100%;
+
+}
+
+.teacher-overlay li {
+      text-align: center;
+}

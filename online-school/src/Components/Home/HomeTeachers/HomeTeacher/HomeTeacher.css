@@ -1,0 +1,7 @@
+.teacher-card {
+      transition: all linear 0.3s;
+}
+
+.teacher-card:hover {
+      box-shadow: 0 13px 6px -6px #ededed;
+}
