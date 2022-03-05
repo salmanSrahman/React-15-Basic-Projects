@@ -12,9 +12,44 @@ li {
       right: 0;
       background: #000;
       height: 100%;
+      width: 80px;
+      background: rgba(0, 0, 0, 0.6);
+      transition: all linear 0.3s;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      -ms-transition: all linear 0.3s;
+      -o-transition: all linear 0.3s;
 
 }
 
-.teacher-overlay li {
+.teacher-overlay ul li a i {
+      width: 40px;
+      height: 40px;
       text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      border: 1px solid #fff;
+      background: transparent;
+      margin-bottom: 15px;
+      transition: all linear 0.3s;
+}
+
+.teacher-overlay ul li:nth-child(1) a i:hover {
+      background: #3b5998;
+      border-color: #3b5998;
+}
+.teacher-overlay ul li:nth-child(1) a i:hover {
+      background: #3b5998;
+      border-color: #3b5998;
+}
+.teacher-overlay ul li:nth-child(1) a i:hover {
+      background: #3b5998;
+      border-color: #3b5998;
+}
+.teacher-overlay ul li:nth-child(1) a i:hover {
+      background: #3b5998;
+      border-color: #3b5998;
 }

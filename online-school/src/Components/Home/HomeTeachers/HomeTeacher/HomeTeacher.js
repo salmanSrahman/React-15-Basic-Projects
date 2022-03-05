@@ -1,6 +1,5 @@
 import React from "react";
 import "./HomeTeacher.css";
-import { Link } from "react-router-dom";
 
 const HomeTeacher = (props) => {
   console.log(props.teacher);
@@ -12,7 +11,7 @@ const HomeTeacher = (props) => {
           <img src={img} alt="" className="img-fluid" />
           <div className="teacher-overlay d-flex align-items-center">
             <ul>
-              <li className="text-center">
+              <li>
                 <a href="#">
                   <i class="fab fa-facebook-f"></i>
                 </a>
