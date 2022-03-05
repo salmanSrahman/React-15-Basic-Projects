@@ -16,7 +16,7 @@ const About = () => {
             <img src={about} alt="" className="img-fluid" />
           </div>
           <div className="col-xl-6">
-            <div className="about-text pt-5 mt-2">
+            <div className="about-text pt-5">
               <h3>
                 <span class="green-color ">E-School</span> is one of the Biggest
                 Online Learning Platform of Bangladesh.
@@ -29,6 +29,7 @@ const About = () => {
                 favourite teacher's class here. You can take preperatiion of
                 Admission, HSC, SSC etc.
               </p>
+              <button className="btn-regular">Get Started</button>
             </div>
           </div>
         </div>
