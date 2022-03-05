@@ -16,7 +16,7 @@ const HomeTeachers = () => {
       <div className="container">
         <div className="title mb-3">
           <h2 className="text-center">
-            Some <span class="green-color">Teachers</span>
+            Our Some <span class="green-color">Teachers</span>
           </h2>
         </div>
         <div className="row g-3">

@@ -1,5 +1,4 @@
 .why-us-item {
-      /* width: calc((100% / 3) - 30px); */
       background-color: #24292d;
       margin: 0 15px 30px;
       padding: 30px;
@@ -9,7 +8,7 @@
       z-index: 1;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
       cursor: pointer;
-      height: 250px;
+      height: 300px;
 }
 
 .why-us-item::before,
@@ -48,7 +47,7 @@
 
 .why-us-item .icon {
       font-size: 30px;
-      color: #ba68c8;
+      color: #1dbb90;
       margin: 0 0 10px;
       text-align: center;
       transition: all 0.5s ease;

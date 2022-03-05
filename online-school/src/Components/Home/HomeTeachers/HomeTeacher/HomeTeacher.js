@@ -12,22 +12,22 @@ const HomeTeacher = (props) => {
           <div className="teacher-overlay d-flex align-items-center">
             <ul>
               <li>
-                <a href="#">
+                <a href="/">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/">
                   <i class="fab fa-pinterest-p"></i>
                 </a>
               </li>
