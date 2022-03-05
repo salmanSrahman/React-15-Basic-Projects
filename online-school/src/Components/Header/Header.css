@@ -4,7 +4,10 @@
       left: 0;
       width: 100%;
       background: #F0FFF0;
-
+      
+}
+.bg-color-2 {
+    background-color: #2f363e;
 }
 
 .nav-part img {
