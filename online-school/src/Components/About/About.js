@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import about from "../../images/about.jpg";
+import about from "../../images/about-cover.jpg";
 
 const About = () => {
   return (
@@ -12,19 +12,24 @@ const About = () => {
           </h2>
         </div>
         <div className="row g-3">
-          <div className="col-xl-5">
+          <div className="col-xl-6">
             <img src={about} alt="" className="img-fluid" />
           </div>
-          <div className="col-xl-7">
-            <p>
-              AIMERS is one of the Biggest Online Learning Platform of
-              Bangladesh. Here you can get the best teachers of Bangladesh. You
-              can choose your week subject and join that class. In Aimers, you
-              can not only attend the classed. You have to give some exam
-              according to your enrolled subject or lesson. You can also watch
-              your favourite teacher's class here. You can take preperatiion of
-              Admission, HSC, SSC etc.
-            </p>
+          <div className="col-xl-6">
+            <div className="about-text pt-5 mt-2">
+              <h3>
+                <span class="green-color ">E-School</span> is one of the Biggest
+                Online Learning Platform of Bangladesh.
+              </h3>
+              <p className="pt-2 text-secondary lh-base fs-5">
+                Here you can get the best teachers of Bangladesh. You can choose
+                your week subject and join that class. In Aimers, you can not
+                only attend the classed. You have to give some exam according to
+                your enrolled subject or lesson. You can also watch your
+                favourite teacher's class here. You can take preperatiion of
+                Admission, HSC, SSC etc.
+              </p>
+            </div>
           </div>
         </div>
       </div>
