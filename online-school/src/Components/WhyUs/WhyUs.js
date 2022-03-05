@@ -7,7 +7,7 @@ const WhyUs = () => {
       <div className="container">
         <div className="title mb-3">
           <h2 className="text-center">
-            Why <span class="green-color">Courses</span>
+            Why <span class="green-color">Our Courses</span>
           </h2>
         </div>
         <div className="row g-2">

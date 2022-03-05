@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import about from "../../images/about-cover.jpg";
 import Courses from "../Home/Courses/Courses";
+import WhyUs from "../WhyUs/WhyUs";
 
 const About = () => {
   return (
@@ -37,7 +38,12 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Courses />
+      <div className="courses-inner pt-5">
+        <Courses />
+      </div>
+      <div className="whyUs-inner pt-5">
+        <WhyUs />
+      </div>
     </div>
   );
 };
