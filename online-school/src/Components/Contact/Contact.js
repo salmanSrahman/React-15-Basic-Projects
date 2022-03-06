@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import contact from "../../images/contact1.jpg";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -59,11 +59,13 @@ const Contact = () => {
                   ></textarea>
                   <label for="floatingTextarea2">Message</label>
                 </div>
-                <Link>
-                  <button type="submit" className="btn btn-regular w-100 my-3">
-                    Submit
-                  </button>
-                </Link>
+                <button
+                  type="submit"
+                  className="btn btn-regular w-100 my-3"
+                  onClick={() => navigate("/contactMessage")}
+                >
+                  Submit
+                </button>
               </div>
             </div>
           </div>
