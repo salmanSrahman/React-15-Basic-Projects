@@ -4,7 +4,7 @@ import contact from "../../../images/Contact us-pana.svg";
 
 const ContactMessage = () => {
   return (
-    <div className="contactMessage-part text-center pt-3">
+    <div className="contactMessage-part text-center pt-5">
       <div className="container">
         <div className="row">
           <div className="col-xl-5 mx-auto">
