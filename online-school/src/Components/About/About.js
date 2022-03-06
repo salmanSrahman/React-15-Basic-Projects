@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import about from "../../images/about-cover.jpg";
+import about from "../../images/about.jpg";
 import Courses from "../Home/Courses/Courses";
 import WhyUs from "../WhyUs/WhyUs";
 

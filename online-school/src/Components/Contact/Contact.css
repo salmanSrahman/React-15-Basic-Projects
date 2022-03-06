@@ -1,0 +1,29 @@
+.contact-part {
+      padding-top: 5rem
+}
+
+.contact-form .form {
+      color: gray;
+      padding: 40px;
+      margin-top: 4rem;
+      background-color: #24292d;
+      border-radius: 10px;
+}
+
+.contact-form .form input {}
+
+.contact-form .form textarea {
+      height: 10rem;
+      resize: none;
+      padding-top: 15px;
+}
+
+/* .contact-form form {
+      max-width: 600px;
+
+      padding: 40px;
+      border-radius: 4px;
+      box-shadow: 5px 5px 30px rgba(212, 203, 203, .2);
+      margin: auto;
+      text-transform: capitalize;
+} */
