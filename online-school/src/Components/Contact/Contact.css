@@ -1,16 +1,20 @@
 .contact-part {
-      padding-top: 5rem
+      padding-top: 8rem
 }
 
 .contact-form .form {
       color: gray;
       padding: 40px;
-      margin-top: 4rem;
+      margin-top: 2rem;
       background-color: #24292d;
       border-radius: 10px;
 }
 
-.contact-form .form input {}
+/* .contact-form .form input {}
+
+.form-floating>.form-control {
+      padding: .5rem .75rem !important;
+} */
 
 .contact-form .form textarea {
       height: 10rem;

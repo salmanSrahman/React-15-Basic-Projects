@@ -1,8 +1,10 @@
 import React from "react";
 import "./Contact.css";
 import contact from "../../images/contact1.jpg";
+import { Link, useNavigate } from "react-router-dom";
 
 const Contact = () => {
+  const navigate = useNavigate();
   return (
     <div className="contact-part">
       <div className="container">
@@ -10,7 +12,7 @@ const Contact = () => {
           <div className="col-xl-6 col-md-6">
             <img src={contact} alt="" className="img-fluid" />
           </div>
-          <div className="col-xl-6 col-md-6">
+          <div className="col-xl-5 col-md-5">
             <div className="contact-form">
               <div className="form">
                 <h6 className="mb-4">Please, Fill Up These To Contact Us !</h6>
@@ -57,9 +59,11 @@ const Contact = () => {
                   ></textarea>
                   <label for="floatingTextarea2">Message</label>
                 </div>
-                <button type="submit" className="btn btn-regular w-100 my-3">
-                  Submit
-                </button>
+                <Link>
+                  <button type="submit" className="btn btn-regular w-100 my-3">
+                    Submit
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
