@@ -17,6 +17,12 @@ const Footer = () => {
                 Among The Country.
               </p>
             </div>
+            <div className="footer-social">
+              <a href="/"><i class="fab fa-facebook-f"></i></a>
+              <a href="/"><i class="fab fa-twitter"></i></a>
+              <a href="/"><i class="fab fa-youtube"></i></a>
+              <a href="/"><i class="fab fa-instagram"></i></a>
+            </div>
           </div>
           <div className="col-xl-3 col-md-6"></div>
           <div className="col-xl-3 col-md-6"></div>
