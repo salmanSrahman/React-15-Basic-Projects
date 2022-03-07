@@ -7,6 +7,7 @@ import AllCourses from "./Components/AllCourses/AllCourses";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import ContactMessage from "./Components/Contact/ContactMessage/ContactMessage";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/ALLcourses" element={<AllCourses />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
-          <Route path="/contactMessage" element={<ContactMessage/>}></Route>
+          <Route path="/contactMessage" element={<ContactMessage />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
