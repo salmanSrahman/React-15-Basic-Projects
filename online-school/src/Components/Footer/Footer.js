@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
     <div className="footer-part ">
       <div className="container">
         <div className="row g-5">
-          <div className="col-xl-3 col-md-6 text-light">
+          <div className="col-xl-3 col-md-3 text-light">
             <div className="footer-title pb-4">
               <h5 className="text-light text-uppercase">About Us</h5>
             </div>
@@ -33,7 +34,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="col-xl-3 col-md-6">
+          <div className="col-xl-3 col-md-3">
             <div className="footer-title pb-4">
               <h5 className="text-light text-uppercase">QUICKLINKS</h5>
             </div>
@@ -44,13 +45,21 @@ const Footer = () => {
               <Link to="/contact">Contact</Link>
             </div>
           </div>
-          <div className="col-xl-3 col-md-6">
+          <div className="col-xl-3 col-md-3">
             <div className="footer-title pb-4">
-              <h5 className="text-light text-uppercase">QUICKLINKS</h5>
+              <h5 className="text-light text-uppercase">Contact Us</h5>
             </div>
-            <div className="footer-second-text pb-3"></div>
+            <div className="footer-third-text pb-3">
+              <ul>
+                <li>
+                  <FontAwesomeIcon icon="fa-solid fa-location-dot" />
+                </li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
           </div>
-          <div className="col-xl-3 col-md-6">
+          <div className="col-xl-3 col-md-3">
             <div className="footer-title pb-4">
               <h5 className="text-light text-uppercase">QUICKLINKS</h5>
             </div>
